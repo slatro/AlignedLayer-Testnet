@@ -192,7 +192,7 @@ nano validator.json
 sudo systemctl restart alignedlayerd.service
 ```
 
-> wallet yerine kendi cüzdan adınızı girmeyi unutmayın.
+> wallet yerine kendi cüzdan adınızı girmeyi unutmayın...
 
 ```
 alignedlayerd --home /root/.alignedlayer tx staking create-validator $HOME/validator.json --from wallet  --chain-id alignedlayer --fees 5000stake -y
